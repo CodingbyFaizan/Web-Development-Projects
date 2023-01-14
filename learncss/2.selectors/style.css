@@ -1,0 +1,35 @@
+*{
+    font-family: cursive;
+}
+
+
+/* Element Selector */
+body {
+    background-color: aliceblue;
+}
+
+#first{
+    color: rgb(18, 133, 234);
+}
+
+.fclass{
+    color: aqua;
+}
+
+
+.sclass{
+    color: rgb(27, 160, 116);
+}
+
+.tclass{
+    color: blueviolet;
+}
+
+.fclass, .sclass{
+    font-style: italic;
+}
+
+.fclass>p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
